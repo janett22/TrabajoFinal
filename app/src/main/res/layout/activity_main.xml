@@ -71,9 +71,10 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/border_top"
                     android:ems="10"
-                    android:inputType="textEmailAddress"
+                    android:hint="Usuario"
+                    android:inputType="textPersonName"
                     android:padding="15dp"
-                    tools:text="Correo Electronico" />
+                    android:text="juan@mail.com" />
 
                 <EditText
                     android:id="@+id/etContrasenia"
@@ -81,8 +82,9 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/border_bottom"
                     android:ems="10"
-                    android:hint="Contraseña (+6 caracteres)"
-                    android:inputType="textPassword"
+                    android:hint="Contraseña"
+                    android:inputType="textPersonName"
+                    android:text="123"
                     android:padding="15dp" />
 
                 <Button
@@ -93,6 +95,7 @@
                     android:background="@drawable/boton"
                     android:text="Iniciar sesión "
                     android:textColorHighlight="#458F89"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/etContrasenia" />
 
             </LinearLayout>
