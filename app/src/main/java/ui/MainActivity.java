@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etUsuario, etContrasenia;
     private Button btLogin;
     private MainActivityViewModel vm;
-
+//actividad de login
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
