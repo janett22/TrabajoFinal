@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/inmobiliarias" />
+                app:srcCompat="@drawable/inmobiliarias"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                     android:id="@+id/imageView5"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    app:srcCompat="@drawable/inmo" />
+                    app:srcCompat="@drawable/inmo"/>
 
                 <TextView
                     android:id="@+id/tvTitulo"
@@ -47,7 +47,7 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.095" />
+                    app:layout_constraintVertical_bias="0.095"/>
             </LinearLayout>
         </FrameLayout>
 
@@ -71,7 +71,7 @@
                     android:ems="10"
                     android:hint="Usuario"
                     android:inputType="textPersonName"
-                    android:padding="15dp" />
+                    android:padding="15dp"/>
 
                 <EditText
                     android:id="@+id/etContrasenia"
@@ -81,7 +81,7 @@
                     android:ems="10"
                     android:hint="Contraseña"
                     android:inputType="textPersonName"
-                    android:padding="15dp" />
+                    android:padding="15dp"/>
 
                 <Button
                     android:id="@+id/btLogin"

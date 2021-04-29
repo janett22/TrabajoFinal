@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import com.example.trabajofinal.R;
 
+//Subiendo MainActivity
 public class MainActivity extends AppCompatActivity {
     private EditText etUsuario, etContrasenia;
     private Button btLogin;
