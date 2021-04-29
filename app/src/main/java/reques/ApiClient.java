@@ -113,6 +113,8 @@ public class ApiClient {
         }
         return temp;
     }
+
+    //Cambios Actualizar perfil
     //Actualizar Perfil
     public void actualizarPerfil(Propietario propietario){
             usuarioActual.setId(propietario.getId());

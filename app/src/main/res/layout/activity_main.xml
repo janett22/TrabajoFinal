@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="ui.MainActivity">
 
     <LinearLayout
@@ -73,8 +71,7 @@
                     android:ems="10"
                     android:hint="Usuario"
                     android:inputType="textPersonName"
-                    android:padding="15dp"
-                    android:text="juan@mail.com" />
+                    android:padding="15dp" />
 
                 <EditText
                     android:id="@+id/etContrasenia"
@@ -84,7 +81,6 @@
                     android:ems="10"
                     android:hint="Contraseña"
                     android:inputType="textPersonName"
-                    android:text="123"
                     android:padding="15dp" />
 
                 <Button
@@ -92,9 +88,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
-                    android:background="@drawable/boton"
+                    android:background="@drawable/border_bottom"
                     android:text="Iniciar sesión "
-                    android:textColorHighlight="#458F89"
+                    android:textColorHighlight="@android:color/background_light"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/etContrasenia" />
 

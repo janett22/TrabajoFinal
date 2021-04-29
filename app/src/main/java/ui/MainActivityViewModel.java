@@ -2,7 +2,6 @@ package ui;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-
 import reques.ApiClient;
 
 public class MainActivityViewModel extends ViewModel {

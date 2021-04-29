@@ -17,9 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btLogin;
     private MainActivityViewModel vm;
 
-
-    //login no funciona
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
                         .setMessage(mensaje)
                         .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialog, int i) {
+                            public void onClick(DialogInterface dialog, int which) {
 
                             }
-                        });
+                        }).show();
 
             }
         });
