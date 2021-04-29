@@ -3,7 +3,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import reques.ApiClient;
-//Subiendo vm
+
 public class MainActivityViewModel extends ViewModel {
     MutableLiveData<String> resultadoMutable;
     MutableLiveData<Boolean> okMutable;
